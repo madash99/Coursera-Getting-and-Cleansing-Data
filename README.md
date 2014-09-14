@@ -26,7 +26,7 @@ tidy data set with the average of each variable for each activity and each subje
 
   ==========================
   
-The script "assignment.r"h as been written carefully and commented.
+The script "assignment.r" has been written carefully and commented.
 Data is stored at each step of transformation to facilitate testing and readability over elegance or shortening of code.
 Each section of the script is logically divided
 
