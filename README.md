@@ -49,7 +49,7 @@ The remaining code in this section  --
 1) Creates readable column names for subject, activity, and each of the feature measures
     observing good principles such as full words and general readability
 
-2) Selects just the features were interested in -- as specified in the assignment, mean and std.
+2) Selects just the features we are interested in -- as specified in the assignment, mean and std.
 
 3) Merges the separate data frames into a single set, and applies the column names.
 
