@@ -1,7 +1,7 @@
  
 ### Getting-and-Cleansing-Data
   ==========================
-
+ 
 This is the repository for my coursework for Getting and Cleansing Data.
 Assignment.R is the script that fulfills the course assignment.
 
