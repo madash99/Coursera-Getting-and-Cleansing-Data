@@ -265,6 +265,6 @@ rexp:                   specifies in appropriate syntax pattern to seprate colum
 new_cols:               stores the result of applying a subest statement to separate measurement and feature
 
 tidy:                   the final data table assembled by manipulating fixed_up -- new_cols replaces the variable column
-                        final columns are subject numeric, activity numeric, measurement char, feature char, value numeric
+                        and final columns are subject numeric, activity numeric, measurement char, feature char, value numeric
 
  
