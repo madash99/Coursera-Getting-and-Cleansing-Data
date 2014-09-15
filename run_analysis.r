@@ -84,17 +84,6 @@ activities<-rbind(y_test,y_train)
 
 colnames(feature_measures)<-(features$V2)        ## Second column contains the actual names
 colnames(subject_ids)<-c("subject")
-
-## Convert Activity #'s to Actual Activity Names
-        
-max<-nrow(activities)                   ## Should be 10299 Observations
-for (i in 1:max) {
-        x<-as.integer(activities[i,1])  ## Determine the right label
-        z<-activity_labels[x,1]         ## Select the right label
-        activities[i,1]<-z              ## Replace Activity # with Activity Label
-        
-}
-
 activity_labels<-as.matrix(activity_labels)
 colnames(activities)<-c("activity") 
 
