@@ -1,6 +1,6 @@
 ## Getting and Cleansing Data Assignment.
 ## Samsung Galaxy S Smartphone Data
- 
+  
 ## 1. You should create one R script called run_analysis.R that does the following. 
 ## 2. Merges the training and the test sets to create one data set.
 ## 3. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -98,7 +98,7 @@ selected_features<-cbind(x,y)
 names_to_fix<-colnames(selected_features)
 
 names_to_fix<-gsub("([[:lower:]])([[:upper:]])", "\\1 \\2", names_to_fix)  ## Space out the words    
-names_to_fix<-sub("t ", "total ", names_to_fix)                            ## Full words, not just letters
+names_to_fix<-sub("t ", "time ", names_to_fix)                            ## Full words, not just letters
 names_to_fix<-sub("f ", "fourier ", names_to_fix)
 
 names_to_fix<-sub("-mean()", " mean", names_to_fix)                        ## Other Aesthetics       
