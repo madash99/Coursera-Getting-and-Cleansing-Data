@@ -3,7 +3,7 @@ title: "CodeBook.md"
 author: "Shannon Mada"
 date: "September 14, 2014"
 ---
-
+ 
 This CodeBook describes the variables used through the code in run_analysis.r
 It includes both "temporary" variables used for storage and transformation, and the final tidy data set
 
